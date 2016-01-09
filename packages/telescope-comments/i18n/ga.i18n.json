@@ -1,14 +1,14 @@
 {
-  "sorry_you_cannot_edit_this_comment" : "Sorry, you cannot edit this comment.",
-  "your_comment_has_been_deleted" : "Your comment has been deleted.",
-  "comment_" : "Comment",
-  "delete_comment" : "Delete Comment",
-  "add_comment" : "Add Comment",
-  "upvote" : "upvote",
-  "downvote" : "downvote",
-  "link" : "link",
-  "edit" : "Edit",
-  "reply" : "Reply",
-  "no_comments" : "No comments.",
-  "please_sign_in_to_reply" : "Please sign in to reply"
+  "sorry_you_cannot_edit_this_comment" : "Brón orm, níl tú in ann an tagairt seo athrú.",
+  "your_comment_has_been_deleted" : "Bhí do thagairt cealaigh.",
+  "comment_" : "Tagairt",
+  "delete_comment" : "Cealaigh tagairt",
+  "add_comment" : "Tagairt nua",
+  "upvote" : "Is maith liom",
+  "downvote" : "Ní maith liom",
+  "link" : "nasc",
+  "edit" : "Athraigh",
+  "reply" : "Freagair",
+  "no_comments" : "Gan tagairt.",
+  "please_sign_in_to_reply" : "Sínigh isteach chun freagairt, más é do thoil é"
 }
