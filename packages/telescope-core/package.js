@@ -8,7 +8,7 @@ Package.describe({
 Package.onUse(function(api) {
 
   api.versionsFrom("METEOR@1.0");
-  
+
   var packages = [
     'telescope:lib@0.25.6', //  no dependencies
     'telescope:messages@0.25.6', // lib
@@ -21,7 +21,7 @@ Package.onUse(function(api) {
   ];
 
   api.use(packages);
-  
+
   api.imply(packages);
 
   api.addFiles([
@@ -80,7 +80,7 @@ Package.onUse(function(api) {
     'lib/server/routes.js'
   ], ['server']);
 
-  var languages = ["ar", "bg", "cs", "da", "de", "el", "en", "es", "et", "fr", "hu", "id", "it", "ja", "kk", "ko", "nl", "pl", "pt-BR", "ro", "ru", "sl", "sv", "th", "tr", "vi", "zh-CN"];
+  var languages = ["ar", "bg", "cs", "da", "de", "el", "en", "es", "et", "fr", "ga", "hu", "id", "it", "ja", "kk", "ko", "nl", "pl", "pt-BR", "ro", "ru", "sl", "sv", "th", "tr", "vi", "zh-CN"];
   var languagesPaths = languages.map(function (language) {
     return "i18n/"+language+".i18n.json";
   });
