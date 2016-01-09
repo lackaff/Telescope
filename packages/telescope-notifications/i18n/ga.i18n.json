@@ -12,10 +12,13 @@
   "notifications_fieldset" : "Fógraí sonraí",
   "emailNotifications" : "Ríomhphost fógraí",
   "your_post" : "Do phost",
-  "has_been_approved" : "Bhí sé ceadaithe"
+  "has_been_approved" : "Bhí sé ceadaithe",
+  "comment_in_ga" : "D'fhág",
+  "left_a_new_comment_on" : "tagairt ar do phost"
 }
 
   /*"you_have_a_new_comment_by" : "Tagairt nua ó *NAME*",
     "has_created_a_new_post" : " Tá post nua ag *NAME*",
     "left_a_new_comment_on" : "D'fhág *NAME* tagairt nua air",
+    "comment_in_ga" : "D'fhág",
     "has_replied_to_your_comment_on" : "D'fhág *NAME* tagairt ar do phost", */
