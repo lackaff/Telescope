@@ -10,7 +10,7 @@ i18n.setLanguage = function (language) {
   // console.log('moment loading…')
   if (language.toLowerCase() === "en") {
     Session.set('momentReady', true);
-    console.log('EN moment loaded!');
+  //  console.log('EN moment loaded!');
 
   }
 
@@ -21,14 +21,14 @@ i18n.setLanguage = function (language) {
       moment.locale(language);
       Session.set('momentReady', true);
       Session.set('momentLocale', language);
-       console.log('GA moment loaded!')
+  //     console.log('GA moment loaded!')
     });
   } else {
     $.getScript("//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/lang/" + language.toLowerCase() + ".js", function (result) {
       moment.locale(language);
       Session.set('momentReady', true);
       Session.set('momentLocale', language);
-       console.log('ELSE moment loaded!')
+  //     console.log('ELSE moment loaded!')
     });
   }
 
