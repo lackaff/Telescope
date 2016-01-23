@@ -12,23 +12,28 @@ i18n.setLanguage = function (language) {
     Session.set('momentReady', true);
   //  console.log('EN moment loaded!');
 
+
   }
 
 
   else if (language.toLowerCase() === "ga" ) {
   // load custom moment locale until moment adds gaeilge
-    $.getScript("//raw.githubusercontent.com/lackaff/moment/gaeilge/locale/ga.js", function (result) {
+    $.getScript("//cdn.rawgit.com/lackaff/moment/gaeilge/locale/ga.js", function (result) {
       moment.locale(language);
       Session.set('momentReady', true);
       Session.set('momentLocale', language);
+
   //     console.log('GA moment loaded!')
+
     });
   } else {
     $.getScript("//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/lang/" + language.toLowerCase() + ".js", function (result) {
       moment.locale(language);
       Session.set('momentReady', true);
       Session.set('momentLocale', language);
+
   //     console.log('ELSE moment loaded!')
+
     });
   }
 
