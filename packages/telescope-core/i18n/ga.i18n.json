@@ -68,11 +68,11 @@
   "posts_awaiting_moderation" : "Poist ag fanacht ar cheadúnais.",
   "future_scheduled_posts" : "Poist sceidealta sa todhchaí.",
   "users_dashboard" : "Painéal an úsáideoir.",
-  "telescope_settings_panel" : "Painéal Socraithe teileascóp.",
+  "telescope_settings_panel" : "Painéal Socraithe Telescope.",
   "various_utilities" : "Fóntais éagsúla.",
   "follow_on_twitter" : "Lean ar Twitter",
   "like_on_facebook" : "Taitin ar Facebook",
   "share_on_twitter" : "Roinn ar Twitter",
   "share_on_facebook" : "Roinn ar Facebook",
-  "powered_by_telescope" : "Cumhachtaí ag an teileascóp"
+  "powered_by_telescope" : "Cumhachtaí ag an Telescope"
 }
